@@ -15,4 +15,6 @@ struct DataSources {
     
     static let personnelLossesDatasource = "https://raw.githubusercontent.com/MacPaw/2022-Ukraine-Russia-War-Dataset/main/data/russia_losses_personnel.json"
     
+    static let applicationRepositoryLink = "https://github.com/IhorMakhnyk/EnemyLossesMacOS"
+    
 }

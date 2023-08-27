@@ -113,7 +113,7 @@ struct HeaderView: View {
     }
     
     private func shareContent() {
-        let sharingService = NSSharingServicePicker(items: ["https://github.com/IhorMakhnyk"])
+        let sharingService = NSSharingServicePicker(items: [DataSources.applicationRepositoryLink])
         guard let appDelegate = NSApplication.shared.delegate as? AppDelegate, let mainWindowView = appDelegate.mainWindow.contentView else { return }
         sharingService.show(relativeTo: .zero, of: mainWindowView, preferredEdge: .maxX)
     }
