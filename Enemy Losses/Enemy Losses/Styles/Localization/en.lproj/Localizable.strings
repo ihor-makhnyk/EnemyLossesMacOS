@@ -1,0 +1,100 @@
+/* 
+  Localizable.strings
+  Enemy Losses
+
+  Created by Ihor Makhnyk on 26.08.2023.
+  
+*/
+
+"Welcome to" = "Welcome to";
+
+"Settings" = "Settings";
+"Enemy Losses" = "Enemy Losses";
+"About" = "About";
+
+/* Pesonnel Losses */
+"Day: " = "Day: ";
+"Day:" = "Day:";
+"As of " = "As of ";
+
+/* Equipment Losses */
+"MRLs: " = "MRLs: ";
+"APCs: " = "APCs: ";
+"Tanks: " = "Tanks: ";
+"Drones: " = "Drones: ";
+"Aircraft: " = "Aircraft: ";
+"Personnel: " = "Personnel: ";
+"Helicopters: " = "Helicopters: ";
+"Naval ships: " = "Naval ships: ";
+"Cruise missiles: " = "Cruise missiles: ";
+"Field Artillery: " = "Field Artillery: ";
+"Special equipment: " = "Special equipment: ";
+"Anti-aircraft Warfare: " = "Anti-aircrat Warfare: ";
+"Vehicles and fuel tanks: " = "Vehicles and fuel tanks: ";
+
+/* Personnel losses graph */
+"Enemy losses trend by months'" = "Enemy losses trend by months'";
+"Each segment of the graph shows the change in the average value of enemy personnel losses per day during the month" = "Each segment of the graph shows the change in the average value of enemy personnel losses per day during the month";
+
+/* List indications */
+"Last year" = "Last year";
+"The beginning" = "The beginning";
+"Oh shoot.. Seems like you're low on Network." = "Oh shoot.. Seems like you're low on Network.";
+
+/* No data texts */
+"No data here...." = "No data here....";
+
+/* Settings */
+"System" = "System";
+"English" = "English";
+"All good" = "All good";
+"Ukrainian" = "Ukrainian";
+"Donate Now" = "Donate Now";
+"Clear cache" = "Clear cache";
+"Image format:" = "Image format:";
+"Save data to cache?" = "Save data to cache?";
+"Choose your language:" = "Choose your language:";
+"How much data to show?" = "How much data to show?";
+"Feel free to pick data which you want to see on the main screen." = "Feel free to pick data which you want to see on the main screen.";
+"NOTE. If you select 'system' option it will set according to the language of your Mac." = "NOTE. If you select 'system' option it will set according to the language of your Mac.";
+"Select the format in which you prefer to export your images. \nNOTE: 'jpg' is the fastest." = "Select the format in which you prefer to export your images. \nNOTE: 'jpg' is the fastest.";
+"Ukrainian warriors laid thousands of their lives as well. To protect you and your country they keep doing it every single day." = "Ukrainian warriors laid thousands of their lifes as well. To protect you and your country they keep doing it every single day.";
+"We will save your loaded losses data to the app cache folder, so that you won't need to use internet to load it and will have access to this data when offline." = "We will save your loaded losses data to the app cache folder, so that you won't need to use internet to load it and will have access to this data when offline.";
+
+/* Data Model (+Settings) */
+"Date" = "Date";
+"Day" = "Day";
+"Aircraft" = "Aircraft";
+"Helicopter" = "Helicopter";
+"Tank" = "Tank";
+"APC" = "APC";
+"Field Artillery" = "Field artillery";
+"MRL" = "MRL";
+"Drone" = "Drone";
+"Naval Ship" = "Naval ship";
+"Anti-Aircraft Warfare" = "Anti-aircraft warfare";
+"Special Equipment" = "Special equipment";
+"Vehicles And Fuel Tanks" = "Vehicles and fuel tanks";
+"Cruise Missiles" = "Cruise missiles";
+
+/* Watermark */
+"Made with love by Ihor Makhnyk – 2023" = "Made with love by Ihor Makhnyk – 2023";
+
+/* About */
+"Hi, my name is Ihor." = "Hi, my name is Ihor.";
+"I've been developing this app for exactly one week in terms of test task for Bootcamp at MacPaw ltd. with a goal not to just make it do a simple function, but to deliver a quality product with attention to detail. Undoubtedly there is still a lot of room for improvement and development, as well as fixing bugs and adapting it for older MacOS versions. Here is small list of what it can do, hope you enjoy it. ❤️" = "I've been developing this app for exactly one week in terms of test task for Bootcamp at MacPaw ltd. with a goal not to just make it do a simple function, but to deliver a quality product with attention to detail. Undoubtably there is still a lot of room for improvement and development, as well as fixing bugs and adapting it for older MacOS versions. Here is small list of what it can do, hope you enjoy it. ❤️";
+"See enemy losses since the beginning of the full fledged invasion. Some data have been modified later, corrections have been applied. The app shows you the most relevant data." = "See enemy losses since the beginning of the full fledged invasion. Some data have been modified later, corrections have been applied. The app shows you the most relevant data.";
+ "Click on the biggest box where personnel data losses are shown to use an interactive chart. It takes values for each day in month period and finds an average value personnel losses." = "Click on the biggest box where personnel data losses are shown to use an interactive chart. It takes values for each day in month period and finds an average value personnel losses.";
+"Copy to clipboard or save to desktop picture of the data from a certain day. You can customize your layout and choose the best export format option for you from: jpg, png or tiff." = "Copy to clipboard or save to desktop picture of the data from a certain day. You can customize your layout and choose the best export format option for you from: jpg, png or tiff.";
+"Manage your data usage in a better way. You can save data to app cache, so that it available to you even offline. You'll be able to clean your cache at anytime." = "Manage your data usage in a better way. You can save data to app cache, so that it available to you even offline. You'll be able to clean your cache at anytime.";
+
+"Copied to clipboard 📄" = "Copied to clipboard 📄";
+"Saved to desktop ☑️" = "Saved to desktop ☑️";
+
+"Select all" = "Select all";
+"Deselect all" = "Deselect all";
+
+"Hold to copy.\nClick to save to desktop" = "Hold to copy.\nClick to save to desktop";
+"Share" = "Share";
+"[ESC] Close" = "[ESC] Close";
+"Settings" = "Settings";
