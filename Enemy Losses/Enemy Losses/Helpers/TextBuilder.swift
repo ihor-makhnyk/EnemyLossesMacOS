@@ -45,15 +45,15 @@ final class TextBuilder {
             case .subtitle:
                 Text(string).font(.custom("FixelDisplay-Medium", size: 18)).multilineTextAlignment(.center).padding(.leading, 30)
                 
-            case .cellTitle:
-                Text(string).font(.custom("FixelDisplay-Bold", size: 16))
-            case .cellSubtitle:
-                Text(string).font(.custom("FixelDisplay-Light", size: 12))
-                
             case .title:
                 Text(string).font(.custom("FixelDisplay-Black", size: 28).width(.expanded))
             case .tryzub:
                 Text(string).font(.custom("FixelDisplay-Light", size: 29))
+                
+            case .cellTitle:
+                Text(string).font(.custom("FixelDisplay-Bold", size: 16))
+            case .cellSubtitle:
+                Text(string).font(.custom("FixelDisplay-Light", size: 12))
                 
             case .cellDate:
                 if let date = string.dateFromString() {
@@ -69,9 +69,9 @@ final class TextBuilder {
                 }
             case .disclosureCellYear:
                 if let date = string.dateFromString() {
-                    Text(date.format(.yearShort)).font(.custom("FixelDisplay-Bold", size: 23))
+                    Text(date.format(.yearShort)).font(.custom("FixelDisplay-Bold", size: 23)).opacity(0.4)
                 } else {
-                    Text(string).font(.custom("FixelDisplay-Black", size: 23.5))
+                    Text(string).font(.custom("FixelDisplay-Black", size: 23.5)).opacity(0.4)
                 }
                 
             case .settingsTitle:
