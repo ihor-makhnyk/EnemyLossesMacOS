@@ -1,0 +1,208 @@
+{
+  "images" : [
+    {
+      "filename" : "EnemyLossesLogo 6.png",
+      "idiom" : "mac",
+      "scale" : "1x",
+      "size" : "16x16"
+    },
+    {
+      "filename" : "EnemyLossesLogo 10.png",
+      "idiom" : "mac",
+      "language-direction" : "left-to-right",
+      "scale" : "1x",
+      "size" : "16x16"
+    },
+    {
+      "filename" : "EnemyLossesLogo 11.png",
+      "idiom" : "mac",
+      "language-direction" : "right-to-left",
+      "scale" : "1x",
+      "size" : "16x16"
+    },
+    {
+      "filename" : "EnemyLossesLogo 7.png",
+      "idiom" : "mac",
+      "scale" : "2x",
+      "size" : "16x16"
+    },
+    {
+      "filename" : "EnemyLossesLogo 12.png",
+      "idiom" : "mac",
+      "language-direction" : "left-to-right",
+      "scale" : "2x",
+      "size" : "16x16"
+    },
+    {
+      "filename" : "EnemyLossesLogo 13.png",
+      "idiom" : "mac",
+      "language-direction" : "right-to-left",
+      "scale" : "2x",
+      "size" : "16x16"
+    },
+    {
+      "filename" : "EnemyLossesLogo 8.png",
+      "idiom" : "mac",
+      "scale" : "1x",
+      "size" : "32x32"
+    },
+    {
+      "filename" : "EnemyLossesLogo 14.png",
+      "idiom" : "mac",
+      "language-direction" : "left-to-right",
+      "scale" : "1x",
+      "size" : "32x32"
+    },
+    {
+      "filename" : "EnemyLossesLogo 15.png",
+      "idiom" : "mac",
+      "language-direction" : "right-to-left",
+      "scale" : "1x",
+      "size" : "32x32"
+    },
+    {
+      "filename" : "EnemyLossesLogo 9.png",
+      "idiom" : "mac",
+      "scale" : "2x",
+      "size" : "32x32"
+    },
+    {
+      "filename" : "EnemyLossesLogo 16.png",
+      "idiom" : "mac",
+      "language-direction" : "left-to-right",
+      "scale" : "2x",
+      "size" : "32x32"
+    },
+    {
+      "filename" : "EnemyLossesLogo 17.png",
+      "idiom" : "mac",
+      "language-direction" : "right-to-left",
+      "scale" : "2x",
+      "size" : "32x32"
+    },
+    {
+      "filename" : "EnemyLossesLogo 5.png",
+      "idiom" : "mac",
+      "scale" : "1x",
+      "size" : "128x128"
+    },
+    {
+      "filename" : "EnemyLossesLogo 18.png",
+      "idiom" : "mac",
+      "language-direction" : "left-to-right",
+      "scale" : "1x",
+      "size" : "128x128"
+    },
+    {
+      "filename" : "EnemyLossesLogo 19.png",
+      "idiom" : "mac",
+      "language-direction" : "right-to-left",
+      "scale" : "1x",
+      "size" : "128x128"
+    },
+    {
+      "filename" : "EnemyLossesLogo 4.png",
+      "idiom" : "mac",
+      "scale" : "2x",
+      "size" : "128x128"
+    },
+    {
+      "filename" : "EnemyLossesLogo 20.png",
+      "idiom" : "mac",
+      "language-direction" : "left-to-right",
+      "scale" : "2x",
+      "size" : "128x128"
+    },
+    {
+      "filename" : "EnemyLossesLogo 21.png",
+      "idiom" : "mac",
+      "language-direction" : "right-to-left",
+      "scale" : "2x",
+      "size" : "128x128"
+    },
+    {
+      "filename" : "EnemyLossesLogo 3.png",
+      "idiom" : "mac",
+      "scale" : "1x",
+      "size" : "256x256"
+    },
+    {
+      "filename" : "EnemyLossesLogo 22.png",
+      "idiom" : "mac",
+      "language-direction" : "left-to-right",
+      "scale" : "1x",
+      "size" : "256x256"
+    },
+    {
+      "filename" : "EnemyLossesLogo 23.png",
+      "idiom" : "mac",
+      "language-direction" : "right-to-left",
+      "scale" : "1x",
+      "size" : "256x256"
+    },
+    {
+      "filename" : "EnemyLossesLogo 2.png",
+      "idiom" : "mac",
+      "scale" : "2x",
+      "size" : "256x256"
+    },
+    {
+      "filename" : "EnemyLossesLogo 24.png",
+      "idiom" : "mac",
+      "language-direction" : "left-to-right",
+      "scale" : "2x",
+      "size" : "256x256"
+    },
+    {
+      "filename" : "EnemyLossesLogo 25.png",
+      "idiom" : "mac",
+      "language-direction" : "right-to-left",
+      "scale" : "2x",
+      "size" : "256x256"
+    },
+    {
+      "filename" : "EnemyLossesLogo 1.png",
+      "idiom" : "mac",
+      "scale" : "1x",
+      "size" : "512x512"
+    },
+    {
+      "filename" : "EnemyLossesLogo 26.png",
+      "idiom" : "mac",
+      "language-direction" : "left-to-right",
+      "scale" : "1x",
+      "size" : "512x512"
+    },
+    {
+      "filename" : "EnemyLossesLogo 27.png",
+      "idiom" : "mac",
+      "language-direction" : "right-to-left",
+      "scale" : "1x",
+      "size" : "512x512"
+    },
+    {
+      "filename" : "EnemyLossesLogo.png",
+      "idiom" : "mac",
+      "scale" : "2x",
+      "size" : "512x512"
+    },
+    {
+      "filename" : "EnemyLossesLogo 28.png",
+      "idiom" : "mac",
+      "language-direction" : "left-to-right",
+      "scale" : "2x",
+      "size" : "512x512"
+    },
+    {
+      "filename" : "EnemyLossesLogo 29.png",
+      "idiom" : "mac",
+      "language-direction" : "right-to-left",
+      "scale" : "2x",
+      "size" : "512x512"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
