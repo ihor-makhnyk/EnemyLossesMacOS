@@ -1,3 +1,4 @@
+#Enemy Losses the MacOS app
 Hi, this is my app which shows detailed data of enemy losses since the start of the full fledged invasion. It loads data about personnel and equipment losses and has has a mechanism of applying corrections for certain dates. It speaks Ukrainian and English, though uses your system language by default. Enemy Losses features main screen layout customisation, data caching, losses progression graph and image exporting. With list of tiny user oriented details you can get familiar here.
 ##### Download it here.
 _MacOS Ventura (13.0+) and higher..._
