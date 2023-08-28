@@ -68,6 +68,10 @@ This is a full list of app's functionality:
 - Open donation link from settings.
 - As a bonus nice a dynamic smart UI adjustments.
 
+#### App image examples
+![](ReadmePictures/16.png)
+![](ReadmePictures/17.png)
+
 ## Details
 
 - Hints
