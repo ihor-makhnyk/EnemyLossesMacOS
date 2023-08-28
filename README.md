@@ -1,21 +1,21 @@
 ## Enemy Losses the MacOS app
 
-Hi, this is my app which shows detailed data of enemy losses since the start of the full fledged invasion. It loads data about personnel and equipment losses and has has a mechanism of applying corrections for certain dates. It speaks Ukrainian and English, though uses your system language by default. Enemy Losses features main screen layout customisation, data caching, losses progression graph and image exporting. With list of tiny user oriented details you can get familiar here.
-##### Download it here.
+Hi, this is my app which shows detailed data of enemy losses since the start of the full fledged invasion. It loads data about personnel and equipment losses and has has a mechanism of applying corrections for certain dates. It speaks Ukrainian and English, though uses your system language by default. Enemy Losses features main screen layout customisation, data caching, losses progression graph and image exporting. With list of tiny user oriented details you can get familiar [here](#details).
+##### Download it [here](https://github.com/IhorMakhnyk/EnemyLossesMacOS/raw/main/Enemy%20Losses.dmg).
 _MacOS Ventura (13.0+) and higher..._
 
 ## Interface
 #### Main screen
 This is the main screen of the app, which features pop-over interactive list of months'/days and all chosen/available data pieces about enemy losses as of selected day. Click on "camera" button to save a image or hold it to copy image to clipboard. 
-![[ReadMe Pictures/1.png]]
+![image](ReadmePictures/1.png)
 
 By clicking on wide personnel losses panel you can open the progression graph of enemy losses personnel. It is being calculated by getting an average of losses every day of the month and presenting the dynamics of this change of averages by each month.
-![[ReadMe Pictures/2.png]]
+![image](ReadmePictures/2.png)
 
 You can as well access two other screens apart from the main one.
 #### Settings screen
 Accessible through clicking a "Gear" button in the top right corner.
-![[ReadMe Pictures/3.png]]This is where you can adjust and customise your user experience.
+![image](ReadmePictures/3.png)This is where you can adjust and customise your user experience.
 -  Choose if you want to save your loaded data to **cache**.
 -  **Clean** already downloaded cache.
 -  Select **how much data** you want to see on the main screen, the amount of tabs will change depending on your selection.
@@ -26,16 +26,17 @@ Accessible through clicking a "Gear" button in the top right corner.
 *To return click on "Cross" button on the right top corner or "Esc" button on your keyboard.*
 #### About screen
 Accessible by clicking on title, watermark on the bottom of the app or by pressing Shift+Command+A
-![[ReadMe Pictures/4.png]]This screen speaks for itself. General information about the project, app capabilities and a note from the developer.
+![image](ReadmePictures/4.png)his screen speaks for itself. General information about the project, app capabilities and a note from the developer.
 
 *To return click on "Cross" button on the right top corner or "Esc" button on your keyboard.*
 
 ## Features
+
 This is a full list of app's functionality:
 - Asynchronous data fetching from three data sources.
-	-  [Enemy personnel losses.][https://github.com/MacPaw/2022-Ukraine-Russia-War-Dataset/raw/main/data/russia_losses_personnel.json]
-	-  [Enemy equipment losses.][https://github.com/MacPaw/2022-Ukraine-Russia-War-Dataset/raw/main/data/russia_losses_equipment.json]
-	-  [Enemy equipment data correction.][https://raw.githubusercontent.com/MacPaw/2022-Ukraine-Russia-War-Dataset/main/data/russia_losses_equipment_correction.json]
+	-  [Enemy personnel losses.](https://github.com/MacPaw/2022-Ukraine-Russia-War-Dataset/raw/main/data/russia_losses_personnel.json)
+	-  [Enemy equipment losses.](https://github.com/MacPaw/2022-Ukraine-Russia-War-Dataset/raw/main/data/russia_losses_equipment.json)
+	-  [Enemy equipment data correction.](https://raw.githubusercontent.com/MacPaw/2022-Ukraine-Russia-War-Dataset/main/data/russia_losses_equipment_correction.json)
 - Data chuncking. The app splits data by months' to represent an array within an array of losses data.
 - Graph drawing until selected period. If you select further in date history, the graph will adjust accordingly.
 - Main screen layout customisation. Choose only those data items that you want to see on your main screen and save as an image.
@@ -51,26 +52,39 @@ This is a full list of app's functionality:
 - As a bonus nice a dynamic smart UI adjustments.
 
 ## Details
+
 - Hints
-  ![[ReadMe Pictures/10.png]]
+
+![image](ReadmePictures/10.png)
 - Indicators (not hardcoded)
-![[ReadMe Pictures/11.png]]![[ReadMe Pictures/12.png]]
+
+![image](ReadmePictures/11.png)![image](ReadmePictures/12.png)
 - Sounds (select day,  clear cache, take picture, select what data to show)
-- Animation for taking photo, with a success message ![[ReadMe Pictures/9.gif]]
+- Animation for taking photo, with a success message
+
+![image](ReadmePictures/9.gif)
 - The app cleans not only database but as well a url session cache
 - On exit the app tries to clean its' url session cache
-- No connection, no data state ![[ReadMe Pictures/5.png]]
-- Loading state ![[ReadMe Pictures/6.png]]
+- No connection, no data state
+
+![image](ReadmePictures/5.png)
+- Loading state
+
+![image](ReadmePictures/6.png)
 - If no layout options selected the main screen shows up with expanded graph by default
 - Language adaptations 
-![[ReadMe Pictures/8.png]]  ![[ReadMe Pictures/7.png]]
+
+![image](ReadmePictures/8.png)  ![image](ReadmePictures/7.png)
 - Starting animation is dismissable
 - Select all option
-![[ReadMe Pictures/13.png]]
-![[ReadMe Pictures/14.png]]
+
+![image](ReadmePictures/13.png)
+![image](ReadmePictures/14.png)
 - Press Esc to return from settings or about
 - Cmd+Q to quit app
-- Builds appropriate names according to image content![[Screenshot 2023-08-28 at 04.09.02.png]]
+- Builds appropriate names according to image content
+
+![image](ReadmePictures/15.png)
 
 ## To-Do for product release
 #### Create on server architecture
