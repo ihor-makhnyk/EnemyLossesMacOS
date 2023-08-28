@@ -8,7 +8,7 @@ Hi, this is my app which shows detailed data of enemy losses since the start of 
 - [To-Do for product release](#to-do-for-product-release)
 - [Suggested improvements](#suggested-improvements)
 
-|For MacOS Ventura+ (13.0+)|
+|For MacOS Ventura(13.0)+|
 |:---|
 |[Download](https://github.com/IhorMakhnyk/EnemyLossesMacOS/raw/main/Enemy%20Losses.dmg)|
 
@@ -128,3 +128,5 @@ Would be nice to have more detailed information on equipment losses as well, wit
 Feels like it is natural for the app to have such a function to scroll through the graph itself and to select ranges on a graph to get averaged data.
 #### Add push notifications for updates
 As a main part of modern user experience, push notification should be sent on a daily basis a data gets updated on a server. This, of course, decreases potential churn rate and probability of a user to forget about it.
+
+[^ Go up ^](#enemy-losses-the-macos-app)
