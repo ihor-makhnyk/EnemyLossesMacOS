@@ -7,7 +7,7 @@ _MacOS Ventura (13.0+) and higher..._
 ## Interface
 #### Main screen
 This is the main screen of the app, which features pop-over interactive list of months'/days and all chosen/available data pieces about enemy losses as of selected day. Click on "camera" button to save a image or hold it to copy image to clipboard. 
-![[1.png]]
+![[ReadMe_Picures/1.png]]
 
 By clicking on wide personnel losses panel you can open the progression graph of enemy losses personnel. It is being calculated by getting an average of losses every day of the month and presenting the dynamics of this change of averages by each month.
 ![[2.png]]
