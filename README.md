@@ -1,4 +1,5 @@
 ## Enemy Losses the MacOS app
+![](https://img.shields.io/badge/Test_task-Bootcamp-blue) ![](https://img.shields.io/badge/Enemy_Losses-MacOS-yellow)
 
 Hi, this is my app which shows detailed data of enemy losses since the start of the full fledged invasion. Was in development between 21st and 28th of Augurst 2023 in terms of a test task for Bootcamp at [MacPaw](https://macpaw.com). Enemy Losses loads data about personnel and equipment losses and has has a mechanism of applying corrections for certain dates. It speaks Ukrainian and English, though uses your system language by default. Enemy Losses [features](#features) main screen layout customisation, data caching, losses progression graph and image exporting. With list of tiny user oriented details you can get familiar [here](#details).
 
