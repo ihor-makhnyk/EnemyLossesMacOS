@@ -1,21 +1,35 @@
 ## Enemy Losses the MacOS app
 
-Hi, this is my app which shows detailed data of enemy losses since the start of the full fledged invasion. It loads data about personnel and equipment losses and has has a mechanism of applying corrections for certain dates. It speaks Ukrainian and English, though uses your system language by default. Enemy Losses features main screen layout customisation, data caching, losses progression graph and image exporting. With list of tiny user oriented details you can get familiar [here](#details).
-##### Download it [here](https://github.com/IhorMakhnyk/EnemyLossesMacOS/raw/main/Enemy%20Losses.dmg).
-_MacOS Ventura (13.0+) and higher..._
+Hi, this is my app which shows detailed data of enemy losses since the start of the full fledged invasion. It loads data about personnel and equipment losses and has has a mechanism of applying corrections for certain dates. It speaks Ukrainian and English, though uses your system language by default. Enemy Losses [features](#features) main screen layout customisation, data caching, losses progression graph and image exporting. With list of tiny user oriented details you can get familiar [here](#details).
+
+- [Interface](#interface)
+- [Features](#features)
+- [Details](#details)
+- [To-Do for product release](#to-do-for-product-release)
+- [Suggested improvements](#suggested-improvements)
+
+|For MacOS Ventura+ (13.0+)|
+|:---|
+|[Download](https://github.com/IhorMakhnyk/EnemyLossesMacOS/raw/main/Enemy%20Losses.dmg)|
 
 ## Interface
 #### Main screen
 This is the main screen of the app, which features pop-over interactive list of months'/days and all chosen/available data pieces about enemy losses as of selected day. Click on "camera" button to save a image or hold it to copy image to clipboard. 
+
 ![image](ReadmePictures/1.png)
 
 By clicking on wide personnel losses panel you can open the progression graph of enemy losses personnel. It is being calculated by getting an average of losses every day of the month and presenting the dynamics of this change of averages by each month.
-![image](ReadmePictures/2.png)
 
+![image](ReadmePictures/2.png)
 You can as well access two other screens apart from the main one.
+
+
 #### Settings screen
 Accessible through clicking a "Gear" button in the top right corner.
-![image](ReadmePictures/3.png)This is where you can adjust and customise your user experience.
+
+![image](ReadmePictures/3.png)
+
+This is where you can adjust and customise your user experience.
 -  Choose if you want to save your loaded data to **cache**.
 -  **Clean** already downloaded cache.
 -  Select **how much data** you want to see on the main screen, the amount of tabs will change depending on your selection.
@@ -26,7 +40,10 @@ Accessible through clicking a "Gear" button in the top right corner.
 *To return click on "Cross" button on the right top corner or "Esc" button on your keyboard.*
 #### About screen
 Accessible by clicking on title, watermark on the bottom of the app or by pressing Shift+Command+A
-![image](ReadmePictures/4.png)his screen speaks for itself. General information about the project, app capabilities and a note from the developer.
+
+![image](ReadmePictures/4.png)
+
+This screen speaks for itself. General information about the project, app capabilities and a note from the developer.
 
 *To return click on "Cross" button on the right top corner or "Esc" button on your keyboard.*
 
