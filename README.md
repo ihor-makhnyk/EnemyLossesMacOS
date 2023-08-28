@@ -7,15 +7,15 @@ _MacOS Ventura (13.0+) and higher..._
 ## Interface
 #### Main screen
 This is the main screen of the app, which features pop-over interactive list of months'/days and all chosen/available data pieces about enemy losses as of selected day. Click on "camera" button to save a image or hold it to copy image to clipboard. 
-![[1.png]]
+![[ReadMe Pictures/1.png]]
 
 By clicking on wide personnel losses panel you can open the progression graph of enemy losses personnel. It is being calculated by getting an average of losses every day of the month and presenting the dynamics of this change of averages by each month.
-![[2.png]]
+![[ReadMe Pictures/2.png]]
 
 You can as well access two other screens apart from the main one.
 #### Settings screen
 Accessible through clicking a "Gear" button in the top right corner.
-![[3.png]]This is where you can adjust and customise your user experience.
+![[ReadMe Pictures/3.png]]This is where you can adjust and customise your user experience.
 -  Choose if you want to save your loaded data to **cache**.
 -  **Clean** already downloaded cache.
 -  Select **how much data** you want to see on the main screen, the amount of tabs will change depending on your selection.
@@ -26,7 +26,7 @@ Accessible through clicking a "Gear" button in the top right corner.
 *To return click on "Cross" button on the right top corner or "Esc" button on your keyboard.*
 #### About screen
 Accessible by clicking on title, watermark on the bottom of the app or by pressing Shift+Command+A
-![[4.png]]This screen speaks for itself. General information about the project, app capabilities and a note from the developer.
+![[ReadMe Pictures/4.png]]This screen speaks for itself. General information about the project, app capabilities and a note from the developer.
 
 *To return click on "Cross" button on the right top corner or "Esc" button on your keyboard.*
 
@@ -52,22 +52,22 @@ This is a full list of app's functionality:
 
 ## Details
 - Hints
-  ![[10.png]]
+  ![[ReadMe Pictures/10.png]]
 - Indicators (not hardcoded)
-![[11.png]]![[12.png]]
+![[ReadMe Pictures/11.png]]![[ReadMe Pictures/12.png]]
 - Sounds (select day,  clear cache, take picture, select what data to show)
-- Animation for taking photo, with a success message ![[9.gif]]
+- Animation for taking photo, with a success message ![[ReadMe Pictures/9.gif]]
 - The app cleans not only database but as well a url session cache
 - On exit the app tries to clean its' url session cache
-- No connection, no data state ![[5.png]]
-- Loading state ![[6.png]]
+- No connection, no data state ![[ReadMe Pictures/5.png]]
+- Loading state ![[ReadMe Pictures/6.png]]
 - If no layout options selected the main screen shows up with expanded graph by default
 - Language adaptations 
-![[8.png]]  ![[7.png]]
+![[ReadMe Pictures/8.png]]  ![[ReadMe Pictures/7.png]]
 - Starting animation is dismissable
 - Select all option
-![[13.png]]
-![[14.png]]
+![[ReadMe Pictures/13.png]]
+![[ReadMe Pictures/14.png]]
 - Press Esc to return from settings or about
 - Cmd+Q to quit app
 - Builds appropriate names according to image content![[Screenshot 2023-08-28 at 04.09.02.png]]
