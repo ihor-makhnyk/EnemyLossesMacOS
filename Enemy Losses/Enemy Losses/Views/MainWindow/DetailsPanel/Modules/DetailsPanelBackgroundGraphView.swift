@@ -9,8 +9,16 @@ import SwiftUI
 
 struct DetailsPanelBackgroundGraphView: View {
     @Binding var isExpanded: Bool
-    @State private var isLitUp: Bool = DataService.shared.isDetailsPanelExpandedForImage
-    @State private var graphExpansion: CGFloat = DataService.shared.isDetailsPanelExpandedForImage ? 1 : 0
+    @State private var isLitUp: Bool = {
+        if UserSettingsConfigurationModel().lossesDataElementsToShow.isEmpty { return true } else {
+            return DataService.shared.isDetailsPanelExpandedForImage
+        }
+    }()
+    @State private var graphExpansion: CGFloat = {
+        if UserSettingsConfigurationModel().lossesDataElementsToShow.isEmpty { return 1 } else {
+            return DataService.shared.isDetailsPanelExpandedForImage ? 1 : 0
+        }
+    }()
     var data: [Int]
     
     var body: some View {

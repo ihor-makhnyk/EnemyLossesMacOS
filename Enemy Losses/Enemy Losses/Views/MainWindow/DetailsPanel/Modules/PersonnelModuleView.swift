@@ -11,7 +11,11 @@ struct PersonnelModuleView<Content: View>: View {
     var view: Content
     @State private var isHovered: Bool = false
     @State private var isClicked: Bool = false
-    @State private var isExpanded: Bool = DataService.shared.isDetailsPanelExpandedForImage
+    @State private var isExpanded: Bool = {
+        if UserSettingsConfigurationModel().lossesDataElementsToShow.isEmpty { return true } else {
+            return DataService.shared.isDetailsPanelExpandedForImage
+        }
+    }()
     
     @State private var graphStep: CGFloat = 0
     var graphData: [Int]?
