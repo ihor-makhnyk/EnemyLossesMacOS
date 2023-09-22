@@ -93,7 +93,7 @@ struct AppTexts {
     static let deselectAll = "Deselect all"
     
     /* Tooltips */
-    static let photoTooltip = "Hold to copy.\nClick to save to desktop"
+    static let photoTooltip = "Hold to copy\nClick to save to desktop"
     static let shareTooltip = "Share"
     static let closeTooltip = "[ESC] Close"
     static let settingsTooltip = "Settings"

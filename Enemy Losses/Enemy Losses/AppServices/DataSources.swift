@@ -9,11 +9,11 @@ import Foundation
 
 struct DataSources {
     
-    static let equipmentLossesDatasource = "https://raw.githubusercontent.com/MacPaw/2022-Ukraine-Russia-War-Dataset/main/data/russia_losses_equipment.json"
+    static let equipmentLossesDatasource = "https://raw.githubusercontent.com/PetroIvaniuk/2022-Ukraine-Russia-War-Dataset/main/data/russia_losses_equipment.json"
     
-    static let equipmentLossesCorrectionsDatasource = "https://raw.githubusercontent.com/MacPaw/2022-Ukraine-Russia-War-Dataset/main/data/russia_losses_equipment_correction.json"
+    static let equipmentLossesCorrectionsDatasource = "https://raw.githubusercontent.com/PetroIvaniuk/2022-Ukraine-Russia-War-Dataset/main/data/russia_losses_equipment_correction.json"
     
-    static let personnelLossesDatasource = "https://raw.githubusercontent.com/MacPaw/2022-Ukraine-Russia-War-Dataset/main/data/russia_losses_personnel.json"
+    static let personnelLossesDatasource = "https://raw.githubusercontent.com/PetroIvaniuk/2022-Ukraine-Russia-War-Dataset/main/data/russia_losses_personnel.json"
     
     static let applicationRepositoryLink = "https://github.com/IhorMakhnyk/EnemyLossesMacOS"
     

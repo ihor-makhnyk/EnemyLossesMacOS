@@ -11,12 +11,15 @@ import AppKit
 
 final class CacheManager {
     
-    let context: NSManagedObjectContext
-    
-    init() {
-        guard let appDelegate = NSApplication.shared.delegate as? AppDelegate else { fatalError("Unable to access App Delegate") }
-        self.context = appDelegate.persistentContainer.viewContext
-    }
+    lazy var persistentContainer: NSPersistentContainer = {
+        let container = NSPersistentContainer(name: "EnemyLossesDataModel")
+        container.loadPersistentStores(completionHandler: { (storeDescription, error) in
+            if let error = error as NSError? {
+                fatalError("Unresolved error \(error), \(error.userInfo)")
+            }
+        })
+        return container
+    }()
     
     //---------------------
     //MARK: - Personnel
@@ -53,9 +56,9 @@ final class CacheManager {
     
     func deletePersonnel() {
         let fetchReq: NSFetchRequest<NSFetchRequestResult> =  NSFetchRequest.init(entityName:"PersonnelLosses")
+        let context = persistentContainer.viewContext
         
         do {
-            
             let personnelFetchResult = try context.fetch(fetchReq)
             personnelFetchResult.forEach { item in
                 guard let item = item as? NSManagedObject else { return }
@@ -134,7 +137,8 @@ final class CacheManager {
     
     func deleteEquipment() {
         let fetchReq: NSFetchRequest<NSFetchRequestResult> =  NSFetchRequest.init(entityName:"EquipmentLosses")
-        
+        let context = persistentContainer.viewContext
+
         do {
             
             let equipmentFetchResult = try context.fetch(fetchReq)

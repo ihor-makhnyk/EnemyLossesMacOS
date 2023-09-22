@@ -48,7 +48,7 @@ final class DataService {
         
         Task {
             guard let appDelegate = await NSApplication.shared.delegate as? AppDelegate else { fatalError("Couldn't access appDelegate") }
-            let context = appDelegate.persistentContainer.newBackgroundContext()
+            let context = cacheManager.persistentContainer.newBackgroundContext()
             
             do {
                 getCachedPersonnel(in: context) { cachedPersonnel in
@@ -113,7 +113,7 @@ final class DataService {
         guard let baseUrl = URL(string: urlEquipment), let correctionUrl = URL(string: urlEquipmentCorrection) else { return }
         Task {
             guard let appDelegate = await NSApplication.shared.delegate as? AppDelegate else { fatalError("Couldn't access appDelegate") }
-            let context = appDelegate.persistentContainer.newBackgroundContext()
+            let context = cacheManager.persistentContainer.newBackgroundContext()
             var shouldUseNetwork: Bool = true
             do {
                 if let day = day {

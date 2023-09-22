@@ -19,6 +19,7 @@ struct KeyEventHandler: NSViewRepresentable {
         override func keyDown(with event: NSEvent) {
             if event.keyCode == 0x35, let action = action {
                 action()
+                
             }
         }
         init(frame frameRect: NSRect, action: @escaping () -> Void) {

@@ -53,7 +53,7 @@ final class DetailsPanelViewModel: ObservableObject {
             guard let self = self, let personnelObject = personnelDateNotification.object as? ([[PersonnelLossesModel]], Int) else { return }
             let listOfAllPersonnelData = personnelObject.0.flatMap{$0}
             let selectedDay = personnelObject.1
-            self.currentPersonnelLossesModel = listOfAllPersonnelData.filter { $0.day == selectedDay }[0]
+            self.currentPersonnelLossesModel = listOfAllPersonnelData.filter { $0.day == selectedDay }.first
             self.fullPersonnelLossesList = listOfAllPersonnelData
             self.loadEquipmentLosses(for: selectedDay)
         }

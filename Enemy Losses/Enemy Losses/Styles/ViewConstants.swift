@@ -17,7 +17,7 @@ struct ViewConstants {
     }()
     static let screenHeight = {
         guard let screen = NSScreen.main else { return CGFloat(0) }
-        return screen.frame.size.height
+        return screen.frame.size.width * 0.625
     }()
     static let screenSize: CGSize = CGSize(width: screenWidth, height: screenHeight)
     
